@@ -4,7 +4,7 @@ const cors = require('cors')
 const msgModel = require('./model/msgSchema')
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect('mongodb://dbAdmin:Weneedsleep404!@localhost:27017/?authMechanism=DEFAULT&authSource=admin')
 .then(()=>console.log("Connect DB Success"))
 .catch(()=>console.log("Fucking Fail Connect"))
 
